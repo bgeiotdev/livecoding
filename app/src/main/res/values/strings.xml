@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">signInform</string>
+    <string name="str_firstname">firstname:</string>
+    <string name="str_email">e-mail :</string>
+    <string name="str_lastname">lastname :</string>
+    <string name="str_ok">OK</string>
+    <string name="signin_msg">Confirmation d\'enregistrement !</string>
+</resources>
