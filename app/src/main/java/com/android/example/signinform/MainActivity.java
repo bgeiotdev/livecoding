@@ -60,7 +60,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
 
         if (requestCode == SIGN_IN_RESULT){
+            //TODO (1) : externaliser les ressources string pour I18N dans :
+            // MainActivity, ConfirmSignin et les 2 fichiers layout xml
 
+            //TODO (2) : Afficher le text en rouge en cas d'annulation, en bleu si creation user ok
 
             boolean confirmationResult = false;
             if (data.hasExtra(SIGN_IN_RESULT_DATA_KEY)){

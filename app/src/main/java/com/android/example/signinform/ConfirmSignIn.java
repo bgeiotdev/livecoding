@@ -66,6 +66,7 @@ public class ConfirmSignIn extends AppCompatActivity {
 
 
     private void confirmIntentDisplay(){
+        //TODO (3) ajouter la javadoc de cette méthode
         Intent startingIntent  = getIntent();
         signInInfo.append(getString(R.string.signin_msg));
 

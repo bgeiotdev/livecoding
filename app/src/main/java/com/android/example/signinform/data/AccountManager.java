@@ -1,6 +1,5 @@
 package com.android.example.signinform.data;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class AccountManager {
@@ -11,7 +10,7 @@ public class AccountManager {
     private  AccountManager() {
         this.myUsers = new HashMap<String,User>();
     }
-    
+
     public static AccountManager getInstance(){
         if (instance==null){
             instance = new AccountManager();

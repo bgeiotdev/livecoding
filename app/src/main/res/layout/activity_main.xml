@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--TODO (4) : remplacer les text de EditText par des hint -->
     <TextView
         android:id="@+id/label_prenom"
         android:layout_width="wrap_content"
